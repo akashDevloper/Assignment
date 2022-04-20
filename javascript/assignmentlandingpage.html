@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..//bootstrap.css">
+    <link rel="stylesheet" href="..//bootstrap.js">
+    <title>Voting Page</title>
+    <style>
+        [type=radio] {
+        position: absolute;
+        opacity: 0;
+        }
+
+        [type=radio]+img {
+        cursor: pointer;
+        margin-right: 0.5rem;
+        }
+
+        [type=radio]:checked + img {
+            outline: 5px solid red;
+            filter:opacity(80%);
+        }
+    </style>
+    <script>
+        function buttonclick(){
+            alert("Voting Submitted");
+        }
+    </script>
+</head>
+<body class="container-fluid">
+    <div class="bg-black ">
+        <h4 class="text-center text-warning text-uppercase text-decoration-underline fw-bolder p-5" style="font-size: 50px;">vote for your Favorite movie </h4>
+        <div id="d1" class="d-flex me-auto ms-auto w-75">
+            <div class="card m-3" style="width: 18rem;">
+                <label>
+                    <input type="radio" id="vr" name="pic"><img src="..//assets/Akhanda.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <p class="card-text text-center text-uppercase fw-bold">Akhanda</p>
+                    </div>
+                </label>
+            </div>
+            <div class="card m-3" style="width: 18rem;">
+                <label>
+                    <input type="radio" id="vr" name="pic"><img src="..//assets/Hero.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <p class="card-text text-center text-uppercase fw-bold">Hero</p>
+                    </div>
+                </label>
+            </div>
+            <div class="card m-3" style="width: 18rem;">
+                    <label>
+                        <input type="radio" id="vr" name="pic"><img src="..//assets/Hello June.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <p class="card-text text-center text-uppercase fw-bold">Hello June</p>
+                        </div>
+                </label>
+            </div>
+            <div class="card m-3" style="width: 18rem;">
+                <label>
+                    <input type="radio" id="vr" name="pic"><img src="..//assets/Good luck Sakhi.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <p class="card-text text-center text-uppercase fw-bold">Good luck Sakhi</p>
+                    </div>
+                </label>
+            </div>
+        </div>
+        <div id="d1" class="d-flex me-auto ms-auto w-75">
+            <div class="card m-3" style="width: 18rem;">
+                <label>
+                    <input type="radio" id="vr" name="pic"><img src="..//assets/ET.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <p class="card-text text-center text-uppercase fw-bold">et</p>
+                    </div>
+                </label>
+            </div>
+            <div class="card m-3" style="width: 18rem;">
+                <label>
+                    <input type="radio" id="vr" name="pic"><img src="..//assets/Enemy.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <p class="card-text text-center text-uppercase fw-bold">Enemy</p>
+                    </div>
+                </label>
+            </div>
+            <div class="card m-3" style="width: 18rem;">
+                <label>
+                    <input type="radio" id="vr" name="pic"><img src="..//assets/Eakam.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <p class="card-text text-center text-uppercase fw-bold">Eakam</p>
+                    </div>
+                </label>
+            </div>
+            <div class="card m-3" style="width: 18rem;">
+                <label>
+                    <input type="radio" id="vr" name="pic"><img src="..//assets/Djbouti.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <p class="card-text text-center text-uppercase fw-bold">Djbouti</p>
+                    </div>
+                </label>
+            </div>
+        </div>
+        <div id="d1" class="d-flex me-auto ms-auto w-75">
+            <div class="card m-3" style="width: 18rem;">
+                <label>
+                    <input type="radio" id="vr" name="pic"><img src="..//assets/Dj tillu.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <p class="card-text text-center text-uppercase fw-bold">Dj tillu</p>
+                    </div>
+                </label>
+            </div>
+            <div class="card m-3" style="width: 18rem;">
+                <label>
+                    <input type="radio" id="vr" name="pic"><img src="..//assets/Dear Megha.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <p class="card-text text-center text-uppercase fw-bold">Dear Megha</p>
+                    </div>
+                </label>
+            </div>
+            <div class="card m-3" style="width: 18rem;">
+                <label>
+                    <input type="radio" id="vr" name="pic"><img src="..//assets/clap.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <p class="card-text text-center text-uppercase fw-bold">clap</p>
+                    </div>
+                </label>
+            </div>
+            <div class="card m-3" style="width: 18rem;">
+                <label>
+                    <input type="radio" id="vr" name="pic"><img src="..//assets/Bhemmla nayak.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <p class="card-text text-center text-uppercase fw-bold">Bhemmla nayak</p>
+                    </div>
+                </label>
+            </div>
+        </div>
+        <div id="d1" class="d-flex me-auto ms-auto w-75">
+            <div class="card m-3" style="width: 18rem;">
+                <label>
+                    <input type="radio" id="vr" name="pic"><img src="..//assets/Bheemsha.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <p class="card-text text-center text-uppercase fw-bold">Bheemsha</p>
+                    </div>
+                </label>
+            </div>
+            <div class="card m-3" style="width: 18rem;">
+                <label>
+                    <input type="radio" id="vr" name="pic"><img src="..//assets/96.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <p class="card-text text-center text-uppercase fw-bold">96</p>
+                    </div>
+                </label>
+            </div>
+            <div class="card m-3" style="width: 18rem;">
+                <label>
+                    <input type="radio" id="vr" name="pic"><img src="..//assets/83.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <p class="card-text text-center text-uppercase fw-bold">83</p>
+                    </div>
+                </label>
+            </div>
+            <div class="card m-3" style="width: 18rem;">
+                <label>
+                    <input type="radio" id="vr" name="pic"><img src="..//assets/1945.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <p class="card-text text-center text-uppercase fw-bold">1945</p>
+                    </div>
+                </label>
+            </div>
+        </div>
+        <button type="submit" onclick="buttonclick()" id="ir" class="btn btn-primary w-75 text-center text-uppercase fw-bold" style="margin-left: 190px; font-size: 20px; margin-bottom: 50px; margin-top: 40px;">Vote</button>
+    </div>
+</body>
+</html>
